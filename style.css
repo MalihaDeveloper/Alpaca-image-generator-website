@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  background-color: #eee;
+}
+.main-section {
+  padding: 10px 100px;
+  /* background-color: aqua; */
+  /* margin-top: 60px; */
+}
+.heading {
+  font-size: 60px;
+  font-weight: 900;
+  text-align: left;
+}
+.image-box {
+  width: 590px;
+  height: 600px;
+  /* background-image: url(backgrounds/blue50.png); */
+  margin-top: 30px;
+}
+.body .backgrounds {
+  position: absolute;
+  top: 20%;
+  z-index: -1;
+  height: 575px;
+}
+img {
+  width: 600px;
+  height: 600px;
+}
+.neck {
+  position: relative;
+}
+.eyes {
+  position: absolute;
+  top: 15%;
+  left: 6%;
+  z-index: 10;
+}
+.nose {
+  position: absolute;
+  top: 15.9%;
+  left: 6%;
+}
+.mouth {
+  position: absolute;
+  top: 16.5%;
+  left: 6%;
+}
+.ears {
+  position: absolute;
+  top: 16.3%;
+  left: 6%;
+  z-index: 0;
+}
+.hair {
+  position: absolute;
+  top: 15.9%;
+  left: 5%;
+}
+.leg {
+  position: absolute;
+  top: 16.6%;
+  left: 6%;
+}
+.accessories {
+  position: absolute;
+  top: 17%;
+  left: 6%;
+}
+#Alpaca-Container {
+  display: flex;
+  gap: 150px;
+}
+.right-heading {
+  margin-top: 35px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  /* background-color: antiquewhite; */
+}
+.btns-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  /* background-color: antiquewhite; */
+}
+
+.style-buttons {
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 25px;
+  font-size: 20px;
+  border: none;
+  min-width: 25%;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.style-buttons:active,
+.style-buttons:focus {
+  background-color: blue;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.randomBtn,
+.downloadBtn {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 20px;
+  border: none;
+  min-width: 15%;
+  margin-top: 18px;
+  margin-right: 10px;
+}
+.active {
+  background-color: blue;
+  color: white;
+}
+

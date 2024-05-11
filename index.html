@@ -4,8 +4,116 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alpaca Image Generator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poetsen+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+  <main class="main-section">
+  <h1 class="heading">Alpaca Generator</h1>
+<div id="Alpaca-Container">
+  <section id="Image-section">
+    <div class="image-box">
+      <div class="body">
+        <img src="neck/default.png" alt="" class="neck">
+        <img src="eyes/default.png" alt="" class="eyes">
+        <img src="nose.png" alt="" class="nose">
+        <img src="mouth/default.png" alt="" class="mouth">
+        <img src="ears/default.png" alt="" class="ears">
+        <img src="hair/default.png" alt="" class="hair">
+        <img src="leg/default.png" alt="" class="leg">
+        <img src="accessories/headphone.png" alt="" class="accessories">
+        <img src="backgrounds/blue50.png" alt="" class="backgrounds">
+      </div>
+    </div>
+  </section>
+  <section id="Styling-section">
+<h3 class="right-heading">ACCESSORIZE THE ALPACA'S</h3>
+<div class="btns-container">
+<button class="style-buttons hairBtn">Hair</button>
+<button class="style-buttons earsBtn">Ears</button>
+<button class="style-buttons eyesBtn">Eyes</button>
+<button class="style-buttons mouthBtn">Mouth</button>
+<button class="style-buttons neckBtn">Neck</button>
+<button class="style-buttons legBtn">Leg</button>
+<button class="style-buttons accessBtn">Accessorise</button>
+<button class="style-buttons BackgroundBtn">Background</button>
+</div>
+<h3 class="right-heading">STYLE &nbsp; &nbsp;<button class="randomBtn">Random</button>
+  &nbsp; <button class="downloadBtn">Download</button></h3>
+
+<!-- Hair Container-->
+<div class="buttons-container Hair-container hidden">
+<button class="style-buttons defaultHair active">Default</button>
+<button class="style-buttons curls" >Curls</button>
+<button class="style-buttons short">Short</button>
+<button class="style-buttons bang">Bang</button>
+<button class="style-buttons elegant">Elegant</button>
+<button class="style-buttons quiff">Quiff</button>
+</div>
+<!-- Ears Container -->
+  <div class="buttons-container ears-container hidden">
+    <button class="style-buttons defaultEars active">Default</button>
+    <button class="style-buttons tiltBack">Tilt Back</button>
+    <button class="style-buttons tiltForward">Tilt Forward</button>
+    </div>
+
+  <!-- Eyes Container-->
+<div class="buttons-container eyes-container hidden">
+  <button class="style-buttons defaultEyes active">Default</button>
+  <button class="style-buttons angry">Angry</button>
+  <button class="style-buttons naughty">Naughty</button>
+  <button class="style-buttons panda">Panda</button>
+  <button class="style-buttons smart">Smart</button>
+  <button class="style-buttons star">Star</button>
+  </div>
+
+  <!-- Mouth Container-->
+<div class="buttons-container mouth-container hidden">
+  <button class="style-buttons defaultMouth active">Default</button>
+  <button class="style-buttons astonished">Astonished</button>
+  <button class="style-buttons eating">Eating</button>
+  <button class="style-buttons laugh">Laugh</button>
+  <button class="style-buttons tongue">Tongue</button>
+  </div>
+
+   <!-- Neck Container-->
+  <div class="buttons-container neck-container hidden">
+    <button class="style-buttons defaultNeck active">Default</button>
+    <button class="style-buttons thick">Thick</button>
+    <button class="style-buttons bendBack">Bend Back</button>
+    <button class="style-buttons bendForward">Bend Forward</button>
+    </div>
+<!-- Leg Container-->
+    <div class="buttons-container leg-container hidden">
+      <button class="style-buttons defaultLeg active">Default</button>
+      <button class="style-buttons bubbleTea">Bubble-tea</button>
+      <button class="style-buttons cookie">Cookie</button>
+      <button class="style-buttons gameConsole">Game Console</button>
+      <button class="style-buttons tiltBackward">Tilt Backward</button>
+      <button class="style-buttons tiltForw">Tilt Forward</button>
+      </div>
+      <!-- Accessorise Container-->
+    <div class="buttons-container accessories-container hidden">
+      <button class="style-buttons headphone">Headphone</button>
+      <button class="style-buttons earrings">Earings</button>
+      <button class="style-buttons flower">Flower</button>
+      <button class="style-buttons glasses">Glasses</button>
+      </div>
+
+      <!-- Background Container-->
+<div class="buttons-container Background-container hidden">
+  <button class="style-buttons defaultBackground active">Default</button>
+  <button class="style-buttons blue70" >Blue 70</button>
+  <button class="style-buttons darkblue70">Darkblue 70</button>
+  <button class="style-buttons green50">Green 50</button>
+  <button class="style-buttons grey80">Gray 80</button>
+  <button class="style-buttons red50">Red 50</button>
+  <button class="style-buttons red60">Red 60</button>
+  <button class="style-buttons yellow50">yellow 50</button>
+  </div>
+  </section>
+</div>
+</main>
+<script src="script.js"></script>
 </body>
 </html>
